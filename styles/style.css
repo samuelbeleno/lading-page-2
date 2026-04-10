@@ -12,6 +12,10 @@ header {
     gap: 20px;
 }
 
+h2 {
+    font-family: sans-serif;
+}
+
 .header-text {
     display: flex;
     flex-direction: column;
@@ -50,6 +54,71 @@ header {
 
 .mac-button {
     background-color: blueviolet; 
+}
+
+.description-page {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.description-text {
+    padding-left: 650px;
+    padding-right: 650px;
+    text-align: center;
+    color: gray;
+}
+
+.main-functionalities {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.functionalities {
+    padding-top: 50px;
+    padding-right: 700px;
+    
+}
+
+.functionalities-text {
+    color: gray;
+    text-align: left;
+}
+
+.functionalities-paraghrap {
+    margin-bottom: 80px;
+}
+
+.clipboard-funtionality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 670px;
+    padding-right: 670px;
+    margin-bottom: 100px;
+}
+
+.clipboard-text {
+    text-align: center;
+}
+
+.image-supported-devices {
+    display: flex;
+    justify-content: center;
+}
+
+.extra-funtionalities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items-extra-funtionalities {
+    display: flex;
 }
 
 footer {
@@ -103,11 +172,6 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-.items {
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 a {
