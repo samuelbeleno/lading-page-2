@@ -119,6 +119,41 @@ h2 {
 
 .items-extra-funtionalities {
     display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    gap: 100px;
+}
+
+.card-extra-funtionality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.text-extra-funtionalities {
+    color: gray;
+    text-align: center;
+}
+
+.information-extra-funtionality, .title-extra-funtionality {
+    text-align: center;
+}
+
+.information-extra-funtionality {
+    color: gray;
+}
+
+.logos-sponsoring-companies {
+    margin-top: 100px;
+    padding-right: 320px;
+    padding-left: 320px;
+}
+
+.items-logos {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer {
